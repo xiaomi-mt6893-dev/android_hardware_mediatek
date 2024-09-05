@@ -19,6 +19,9 @@ cc_library_shared {
         "liblog",
         "libhardware_legacy",
     ],
+    header_libs: [
+        "wifi_legacy_headers",
+    ],
 }
 
 prebuilt_etc {
